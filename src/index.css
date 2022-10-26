@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgroundcolor: #101820ff;
+  --secondaryBackground: #0a1015;
+  --textcolor: #39ff14;
+  --white: #fff;
+  --secondarytextcolor: #333;
+  --blue: #0d6efd;
+  --nav-gap: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'Raleway', sans-serif !important; */
+  font-family: 'Play', sans-serif !important;
+  /* font-family: 'Jost', sans-serif; */
+  background: var(--backgroundcolor) !important;
+  color: var(--textcolor) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo_container {
+  padding-top: 20px;
+  width: 80px;
+  height: auto;
+}
+
+/*Side Nav*/
+.section {
+  height: 100vh;
+}
+
+.side_nav_container {
+  padding: var(--nav-gap);
+  position: fixed;
+  left: 10px;
+  top: 87%;
+  transform: translateY(-50%);
+}
+
+.nav-item {
+  margin: 15px 0;
+}
+
+.nav-item a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: opacity 0.1s;
+  text-transform: uppercase;
+  color: var(--textcolor);
+}
+
+.nav-item a:hover {
+  color: #fff;
+}
+
+.nav-item i {
+  padding: 10px;
+  border-radius: 50%;
+  background: var(--secondarytextcolor);
+}
+
+/*Hero*/
+.border_text {
+  border-left: 10px solid var(--textcolor);
+  border-top: 1px solid var(--textcolor);
+}
+.text_container {
+  padding: 20px;
+}
+
+.text_container span {
+  padding-right: 15px;
+}
+
+.text_container i {
+  padding-right: 5px;
+}
+
+.hero_text_section {
+  padding-top: 100px;
+}
+
+.hero_text_section h4 {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.web_container {
+  display: flex;
+  align-items: center;
+}
+
+.web_container h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.web_container h3 {
+  font-size: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.text_container p {
+  color: #fff;
+  width: 500px;
+  font-style: italic;
+}
+
+/*Hero End*/
+
+/*Pages*/
+.hero_container {
+  min-height: 100vh;
+  background: url(./images/bg-desktop3.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_section_container {
+  padding-top: 50px;
+}
+
+.hero_container img {
+  width: 75%;
+  height: auto;
+  float: right;
+}
+
+.about_container img {
+  width: 75%;
+  height: auto;
+  float: right;
+}
+
+.hero_container h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  background: var(--secondaryBackground);
+  color: var(--textcolor);
+  width: 100%;
+  height: 90px;
+  border-radius: 0px 0px 100px 0px;
+}
+
+.about_container h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  background: var(--secondaryBackground);
+  color: var(--textcolor);
+  width: 100%;
+  height: 90px;
+  border-radius: 0px 0px 100px 0px;
+  border-left: 10px solid var(--textcolor);
+  border-bottom: 1px solid var(--textcolor);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.certificates_container h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  background: var(--secondaryBackground);
+  color: var(--textcolor);
+  width: 100%;
+  height: 90px;
+  border-radius: 0px 0px 100px 0px;
+  border-left: 10px solid var(--textcolor);
+  border-bottom: 1px solid var(--textcolor);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project_container h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  background: var(--secondaryBackground);
+  color: var(--textcolor);
+  width: 100%;
+  height: 90px;
+  border-radius: 0px 0px 100px 0px;
+  border-left: 10px solid var(--textcolor);
+  border-bottom: 1px solid var(--textcolor);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Project*/
+.project_main_container {
+  padding: 10px 0;
+}
+
+.project_main_container h2 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project_main_container p {
+  text-align: center;
+}
+
+.project_container h4 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project_item {
+  border: 1px solid var(--textcolor);
+  border-left: 10px solid var(--textcolor);
+  padding: 50px;
+  height: 300px;
+  border-radius: 3px;
+  background: var(--secondarytextcolor);
+  text-align: center;
+}
+
+.project_item p {
+  color: #fff;
+}
+
+.project_item i {
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+.project_item img {
+  width: 30px;
+  height: auto;
+}
+/*Project End*/
+
+/*Header nav*/
+.navbar a {
+  padding: 10px 0px;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+.navbar a {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+/*Certificates*/
+.card-title {
+  color: var(--secondarytextcolor);
+  font-weight: bold !important;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px !important;
+}
+
+.card-text {
+  color: var(--secondarytextcolor);
+}
+
+/*media query*/
+
+@media only screen and (max-width: 900px) {
+  .hero_container {
+    min-height: 100vh;
+    background: url(./images/bg-pad.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .section {
+    height: 100%;
+  }
+  .logo_container {
+    padding-top: 10px;
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+  }
+  .side_nav_container {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+
+    position: fixed;
+    padding-left: 30px;
+
+    top: 95%;
+    transform: translateY(-50%);
+    background: var(--backgroundcolor);
+    border-radius: 10px;
+    border: 2px solid var(--textcolor);
+    padding: 0px;
+  }
+
+  .side_nav_container a {
+    font-size: 15px;
+    color: var(--textcolor);
+  }
+
+  .side_nav_container i {
+    padding: 0px;
+  }
+
+  .nav-item i {
+    padding: 10px;
+    background: var(--secondarytextcolor);
+  }
+
+  /*Pages*/
+  .hero_container {
+    min-height: 100vh;
+    background: url(./images/bg-mobile2.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .hero_container h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 0px 100px 0px;
+  }
+
+  .hero_container img {
+    width: 75%;
+    height: auto;
+    float: left;
+  }
+
+  .about_container h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 0px 100px 0px;
+  }
+
+  .certificates_container h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px 0px 100px 0px;
+  }
+
+  /*Hero*/
+
+  .hero_section_container {
+    width: 350px;
+  }
+
+  .border_text {
+    border-top: 0px solid var(--textcolor);
+  }
+
+  .text_container h4 {
+    font-size: 16px;
+  }
+
+  .text_container span {
+    font-size: 14px;
+  }
+
+  .hero_text_section {
+    padding-top: 140px;
+  }
+
+  .web_container {
+    display: block;
+  }
+
+  .web_container h2 {
+    font-size: 45px;
+  }
+
+  .web_container h3 {
+    font-size: 20px;
+  }
+
+  .text_container p {
+    width: auto;
+    font-size: 16px;
+  }
+
+  /*Hero End*/
+
+  /*Project*/
+  .project_container {
+    margin-bottom: 100px;
+  }
+
+  .project_container h1 {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    width: 100%;
+    height: 55px;
+    border-radius: 0px 0px 100px 0px;
+  }
+
+  .project_item_container {
+    padding: 5px 10px;
+  }
+
+  .project_main_container h2 {
+    font-size: 18px;
+  }
+
+  .project_main_container p {
+    font-size: 16px;
+  }
+
+  /*Project End*/
+}
