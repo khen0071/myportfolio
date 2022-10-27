@@ -12,7 +12,8 @@
 :root {
   --backgroundcolor: #101820ff;
   --secondaryBackground: #0a1015;
-  --textcolor: #39ff14;
+  --textcolor: #30d713;
+  --textcolordark: #39ff14;
   --white: #fff;
   --secondarytextcolor: #333;
   --blue: #0d6efd;
@@ -80,9 +81,33 @@ a {
 .border_text {
   border-left: 10px solid var(--textcolor);
   border-top: 1px solid var(--textcolor);
+  transition: all 1s ease;
 }
+
+.border_text2 {
+  border-right: 10px solid var(--textcolor);
+  border-bottom: 1px solid var(--textcolor);
+  transition: all 1s ease;
+}
+
+.border_text2:hover {
+  border-right: 10px solid white;
+  border-bottom: 1px solid white;
+}
+
+.border_text:hover {
+  border-left: 10px solid white;
+  border-top: 1px solid white;
+}
+
 .text_container {
   padding: 20px;
+}
+
+.welcome {
+  color: #fff;
+  font-size: 70px;
+  letter-spacing: 2px;
 }
 
 .text_container span {
@@ -126,6 +151,19 @@ a {
   color: #fff;
   width: 500px;
   font-style: italic;
+}
+
+/*Section2*/
+.section2_img_container {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.section2_img_container img {
+  width: 30px !important;
 }
 
 /*Hero End*/
@@ -393,6 +431,10 @@ a {
     width: 350px;
   }
 
+  .welcome {
+    font-size: 40px;
+  }
+
   .border_text {
     border-top: 0px solid var(--textcolor);
   }
@@ -406,7 +448,7 @@ a {
   }
 
   .hero_text_section {
-    padding-top: 140px;
+    padding-top: 100px;
   }
 
   .web_container {
