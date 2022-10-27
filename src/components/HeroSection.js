@@ -24,18 +24,17 @@ const HeroSection = () => {
                     <div className='welcome'>
                       <strong>WELCOME</strong>
                     </div>
+                    <h4>
+                      My name is <strong>Kenneth</strong>
+                    </h4>
 
                     <div className='web_container'>
                       <h2>Software Developer</h2>
                       <h3>at your service</h3>
                     </div>
-                    <p>
-                      My name is <strong>Kenneth</strong>, I'm a front-end
-                      developer based in the Philippines.
-                    </p>
 
                     <p>
-                      Over the course of 3 years I've worked with startup
+                      - Over the course of 3 years I've worked with startup
                       companies by assisting them to reach their full potential
                       & prosper to their utmost capabilities.
                     </p>

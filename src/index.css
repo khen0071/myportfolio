@@ -355,7 +355,7 @@ a {
     position: fixed;
     padding-left: 30px;
 
-    top: 95%;
+    top: 92%;
     transform: translateY(-50%);
     background: var(--backgroundcolor);
     border-radius: 10px;
@@ -432,7 +432,7 @@ a {
   }
 
   .welcome {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .border_text {
@@ -448,7 +448,7 @@ a {
   }
 
   .hero_text_section {
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   .web_container {
@@ -465,7 +465,7 @@ a {
 
   .text_container p {
     width: auto;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*Hero End*/
