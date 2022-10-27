@@ -379,7 +379,7 @@ a {
 
   /*Pages*/
   .hero_container {
-    min-height: 100vh;
+    min-height: 85vh;
     background: url(./images/bg-mobile2.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
