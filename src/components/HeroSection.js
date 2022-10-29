@@ -5,7 +5,7 @@ import Programmer from '../images/programmer_vector.jpg';
 import Logo from '../images/logo9.png';
 import JS from '../images/svg/javascript.svg';
 import ReactJS from '../images/svg/react.svg';
-import Node from '../images/svg/node2.svg';
+import Node from '../images/svg/node.svg';
 import Next from '../images/svg/nextjs.svg';
 
 const HeroSection = () => {
@@ -52,12 +52,13 @@ const HeroSection = () => {
                         <Image src={Next} />
                       </span>
                     </div>
-                    <span>
-                      <i class='fa-solid fa-list-check'></i>View Projects
-                    </span>
-                    <span>
-                      <i class='fa-regular fa-address-card'></i>About me
-                    </span>
+
+                    <div className='view'>
+                      <i class='fa-solid fa-list-check'></i>
+                      <span>View Projects</span>
+                      <i class='fa-regular fa-address-card'></i>
+                      <span>About me</span>
+                    </div>
                   </div>
                 </div>
               </Col>

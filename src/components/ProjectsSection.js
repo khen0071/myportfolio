@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import svg1 from '../images/svg/react.svg';
 import svg2 from '../images/svg/javascript.svg';
 import svg3 from '../images/svg/contentful.svg';
-import svg4 from '../images/svg/nextjs2.svg';
+import svg4 from '../images/svg/nextjs.svg';
 import svg5 from '../images/svg/node.svg';
 import svg6 from '../images/svg/redux.svg';
 
