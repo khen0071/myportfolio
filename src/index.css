@@ -83,6 +83,15 @@ a {
 }
 
 /*Hero*/
+.text_container a {
+  text-decoration: none;
+  color: var(--textcolor);
+}
+
+.text_container a:hover {
+  color: var(--textcolor);
+}
+
 .border_text {
   border-left: 10px solid var(--textcolor);
   border-top: 1px solid var(--textcolor);
@@ -412,6 +421,14 @@ a {
   color: #fff;
 }
 
+.first_project a {
+  color: var(--textcolor);
+}
+
+.first_project a:hover {
+  color: #fff;
+}
+
 .first_project p {
   background: #333;
   padding: 20px;
@@ -484,6 +501,10 @@ a {
   border-radius: 5px;
   color: #fff;
   margin: 10px;
+}
+
+.footer_container button:hover {
+  background: var(--secondaryBackground);
 }
 /*Footer End*/
 

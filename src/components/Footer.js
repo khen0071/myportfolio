@@ -9,7 +9,9 @@ const Footer = () => {
           <h2>Get in Touch</h2>
           <p>I'll write back as soon as possible.</p>
 
-          <button variant='success'>Contact Me</button>
+          <a href='mailto: khen0071@gmail.com'>
+            <button variant='success'>Contact Me</button>
+          </a>
           <p className='copyright'>
             All Rights Reserved. Copyright &copy; 2022{' '}
           </p>

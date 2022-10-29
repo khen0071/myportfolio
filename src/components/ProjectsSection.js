@@ -1,13 +1,11 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import svg1 from '../images/svg/react.svg';
-import svg2 from '../images/svg/javascript.svg';
-import svg3 from '../images/svg/contentful.svg';
-import svg4 from '../images/svg/nextjs.svg';
-import svg5 from '../images/svg/node.svg';
-import svg6 from '../images/svg/redux.svg';
-
-import Prestige from '../images/prestige.png';
+import { Container } from 'react-bootstrap';
+// import svg1 from '../images/svg/react.svg';
+// import svg2 from '../images/svg/javascript.svg';
+// import svg3 from '../images/svg/contentful.svg';
+// import svg4 from '../images/svg/nextjs.svg';
+// import svg5 from '../images/svg/node.svg';
+// import svg6 from '../images/svg/redux.svg';
 
 const ProjectsSection = () => {
   return (
@@ -135,10 +133,22 @@ const ProjectsSection = () => {
             </ul>
             <ul>
               <li>
-                <i class='fa-brands fa-github'></i>
+                <a
+                  href='https://github.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <i class='fa-brands fa-github'></i>
+                </a>
               </li>
               <li>
-                <i class='fa-solid fa-link'></i>
+                <a
+                  href='https://github.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <i class='fa-solid fa-link'></i>
+                </a>
               </li>
             </ul>
           </div>

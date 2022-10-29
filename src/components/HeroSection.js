@@ -1,12 +1,10 @@
 import React from 'react';
 import { Col, Row, Container, Image } from 'react-bootstrap';
 
-import Programmer from '../images/programmer_vector.jpg';
 import Logo from '../images/logo9.png';
 import JS from '../images/svg/javascript.svg';
 import ReactJS from '../images/svg/react.svg';
 import Node from '../images/svg/node4.svg';
-import Node2 from '../images/svg/node3.svg';
 import Next from '../images/svg/nextjs.svg';
 
 const HeroSection = () => {
@@ -51,10 +49,14 @@ const HeroSection = () => {
                     </div>
 
                     <div className='view'>
-                      <i class='fa-solid fa-list-check'></i>
-                      <span>View Projects</span>
-                      <i class='fa-regular fa-address-card'></i>
-                      <span>About me</span>
+                      <a href='#about' class='item'>
+                        <i class='fa-regular fa-address-card'></i>
+                        <span>About me</span>
+                        <a href='#project' class='item'>
+                          <i class='fa-solid fa-list-check'></i>
+                          <span>View Projects</span>
+                        </a>
+                      </a>
                     </div>
                   </div>
                 </div>
