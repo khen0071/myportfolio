@@ -5,8 +5,8 @@ import Programmer from '../images/programmer_vector.jpg';
 import Logo from '../images/logo9.png';
 import JS from '../images/svg/javascript.svg';
 import ReactJS from '../images/svg/react.svg';
-import Node from '../images/svg/node.svg';
-import Next from '../images/svg/nextjs2.svg';
+import Node from '../images/svg/node2.svg';
+import Next from '../images/svg/nextjs.svg';
 
 const HeroSection = () => {
   return (
