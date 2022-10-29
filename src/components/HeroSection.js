@@ -46,10 +46,10 @@ const HeroSection = () => {
                         <Image src={ReactJS} />
                       </span>
                       <span>
-                        <Image src={Next} />
+                        <Image src={Node} />
                       </span>
                       <span>
-                        <Image src={Node} />
+                        <Image src={Next} />
                       </span>
                     </div>
                     <span>
