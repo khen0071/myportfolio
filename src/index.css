@@ -594,6 +594,13 @@ a {
     padding: 10px 0px 20px 0px;
     font-size: 18px;
   }
+
+  .card-title {
+    font-size: 16px;
+  }
+  .list-group-item {
+    font-size: 14px;
+  }
   /*Certificate End*/
 
   /*Project*/
