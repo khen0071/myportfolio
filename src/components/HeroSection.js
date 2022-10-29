@@ -38,7 +38,7 @@ const HeroSection = () => {
                       companies by assisting them to reach their full potential
                       & prosper to their utmost capabilities.
                     </p>
-                    <div className='section2_img_container'>
+                    <div className='section_img_container'>
                       <span>
                         <Image src={JS} />
                       </span>

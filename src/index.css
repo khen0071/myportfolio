@@ -14,6 +14,7 @@
   --secondaryBackground: #0a1015;
   --textcolor: #30d713;
   --textcolordark: #39ff14;
+  --gray: rgb(122, 122, 122);
   --white: #fff;
   --secondarytextcolor: #333;
   --blue: #0d6efd;
@@ -36,6 +37,10 @@ a {
   text-decoration: none;
 }
 
+.strong {
+  color: var(--textcolor);
+}
+
 .logo_container {
   padding-top: 20px;
   width: 80px;
@@ -44,7 +49,7 @@ a {
 
 /*Side Nav*/
 .section {
-  height: 100vh;
+  height: auto;
 }
 
 .side_nav_container {
@@ -154,7 +159,7 @@ a {
 }
 
 /*Section2*/
-.section2_img_container {
+.section_img_container {
   width: 200px;
   height: auto;
   display: flex;
@@ -167,6 +172,49 @@ a {
 }
 
 /*Hero End*/
+
+/*About*/
+.about_section_container {
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.about_section_container h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabs_container button {
+  color: var(--gray) !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.profile_container {
+  color: #fff;
+  max-width: 800px;
+  margin: 30px auto;
+  border-left: 10px solid var(--textcolor);
+  padding: 20px;
+  border-radius: 10px;
+  background: var(--secondarytextcolor);
+}
+
+.profile_container p {
+  margin-bottom: 0px;
+}
+
+.experience_container {
+  color: #fff;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+/*About End*/
 
 /*Pages*/
 .hero_container {
@@ -408,7 +456,7 @@ a {
   .about_container h1 {
     padding-top: 15px;
     padding-left: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 18px;
     width: 100%;
     height: 50px;
@@ -418,7 +466,7 @@ a {
   .certificates_container h1 {
     padding-top: 15px;
     padding-left: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 18px;
     width: 100%;
     height: 50px;
@@ -470,13 +518,38 @@ a {
 
   /*Hero End*/
 
+  /*About*/
+
+  .about_section_container {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .tabs_container button {
+    font-size: 10px;
+  }
+
+  .about_section_container h3 {
+    font-size: 18px;
+  }
+
+  .profile_container p,
+  .education_container p {
+    font-size: 14px;
+  }
+
+  .experience_container {
+    font-size: 14px;
+  }
+
+  /*About End*/
+
   /*Project*/
   .project_container {
     margin-bottom: 100px;
   }
 
   .project_container h1 {
-    margin-top: 20px;
     padding-top: 15px;
     padding-left: 15px;
     margin-bottom: 15px;

@@ -1,5 +1,8 @@
 import React from 'react';
-import { Col, Row, Container, Accordion } from 'react-bootstrap';
+import { Col, Row, Container, Tabs, Tab } from 'react-bootstrap';
+import Experience from './navitems/Experience';
+import Experience01 from './navitems/Experience_tab1';
+import Experience02 from './navitems/Experience_tab2';
 
 const AboutSection = () => {
   return (
@@ -10,60 +13,61 @@ const AboutSection = () => {
         </h1>
 
         <Container>
-          <div className='hero_section_container'>
-            <Row>
-              <Col md={3} sm={12}>
-                <Accordion defaultActiveKey='0' flush>
-                  <Accordion.Item eventKey='0'>
-                    <Accordion.Header>Accordion Item #1</Accordion.Header>
-                    <Accordion.Body>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey='1'>
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
-                    <Accordion.Body>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey='2'>
-                    <Accordion.Header>Accordion Item #1</Accordion.Header>
-                    <Accordion.Body>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                </Accordion>
-              </Col>
-              <Col md={3} sm={12}>
-                <h2>Experience</h2>
-              </Col>
-              <Col md={3} sm={12}>
-                <h2>Education</h2>
-              </Col>
+          <div className='about_section_container'>
+            <h3>My Profile</h3>
+            <div className='profile_container'>
+              <p>
+                Hello! my name is <strong className='strong'>Kenneth</strong>,
+                and I'm a Philippine based freelancer. I'm working remotely on
+                projects for clients all over the world.
+              </p>
+              <br></br>
+              <p>
+                I have a diverse set of skills, ranging from design, to{' '}
+                <strong className='strong'>HTML CSS Javascript</strong>, all the
+                way to{' '}
+                <strong className='strong'>
+                  React, Node and NoSQL module{' '}
+                </strong>
+                development.
+              </p>
+              <br></br>
 
-              <Col md={3} sm={12}>
-                <h2>Stack</h2>
+              <p>Self-taught Front End Developer</p>
+              <p>
+                I can provide solutions for problems or grow existing projects
+              </p>
+              <br></br>
+
+              <p>
+                I am a <strong className='strong'>Software Developer</strong>{' '}
+                from the Philippines. I enjoy building everything from small
+                business site to rich interactive web apps. If you are a
+                business and seeking for a web presence of an employer looking
+                to hire, I'd be more than happy to join your amazing team.{' '}
+              </p>
+            </div>
+            <Row>
+              <Col md={12} xs={12}>
+                <div className='tabs_container'>
+                  <h3>My Journey...</h3>
+                  <Tabs
+                    defaultActiveKey='experience'
+                    id='justify-tab-example'
+                    className='mb-3'
+                    justify
+                  >
+                    <Tab eventKey='experience' title='experience'>
+                      <Experience />
+                    </Tab>
+                    <Tab eventKey='experience1' title='experience1'>
+                      <Experience01 />
+                    </Tab>
+                    <Tab eventKey='experience2' title='experience2'>
+                      <Experience02 />
+                    </Tab>
+                  </Tabs>
+                </div>
               </Col>
             </Row>
           </div>
