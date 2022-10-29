@@ -5,18 +5,28 @@ const Experience = () => {
   return (
     <>
       <div className='experience_container'>
-        <h4>Experience</h4>
+        <h4>Web Developer</h4>
         <p>
-          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
+          <small>June 2019 - October 2022</small>
         </p>
+        <ul>
+          <li>
+            Developed & maintained code for in-house and client websites primary
+            using HTML, CSS, Javascript.
+          </li>
+          <li>
+            Manually tested sites in various browsers and mobile devices to
+            ensure cross-browser compatibility and responsiveness.
+          </li>
+          <li>
+            Clients include Psychics, Doctors, Facebook Ads Form Lead
+            Submissions and more...
+          </li>
+          <li>
+            Interfaced with clients on a weekly basis, providing technological
+            expertise
+          </li>
+        </ul>
       </div>
     </>
   );

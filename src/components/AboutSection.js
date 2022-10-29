@@ -57,13 +57,13 @@ const AboutSection = () => {
                     className='mb-3'
                     justify
                   >
-                    <Tab eventKey='experience' title='experience'>
+                    <Tab eventKey='experience' title='ChileJam'>
                       <Experience />
                     </Tab>
-                    <Tab eventKey='experience1' title='experience1'>
+                    <Tab eventKey='experience1' title="Psychic's Choice">
                       <Experience01 />
                     </Tab>
-                    <Tab eventKey='experience2' title='experience2'>
+                    <Tab eventKey='experience2' title='GEMINI'>
                       <Experience02 />
                     </Tab>
                   </Tabs>

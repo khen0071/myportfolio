@@ -214,6 +214,10 @@ a {
   margin: 30px auto;
 }
 
+.experience_container h4 {
+  color: var(--textcolor);
+}
+
 /*About End*/
 
 /*Pages*/
