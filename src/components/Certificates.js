@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Card, ListGroup, Container } from 'react-bootstrap';
+import { Col, Row, Card, ListGroup, Container, Image } from 'react-bootstrap';
 import Image1 from '../images/nodejs.jpg';
 import Image2 from '../images/ecommerce_mern.jpg';
 import Image3 from '../images/mern_stack.jpg';
@@ -17,6 +17,7 @@ const Certificates = () => {
             <i class='fa-solid fa-code'></i> Certificates
           </h1>
           <Container>
+            <h3>My Learnings</h3>
             <Row>
               <Col md={4} sm={12}>
                 <Card className='mb-3'>
@@ -26,13 +27,15 @@ const Certificates = () => {
 
                     <ListGroup variant='flush'>
                       <ListGroup.Item>
-                        <strong>Instructor:</strong> Andrew Mead
+                        Instructor:
+                        <strong className='strong'> Andrew Mead</strong>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <strong>Completion Date:</strong> Jan 29, 2021
+                        Completion Date:
+                        <strong className='strong'> Jan 29, 2021</strong>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <strong>Total Hours:</strong> 35
+                        Total Hours: <strong className='strong'>35</strong>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Body>
@@ -45,13 +48,15 @@ const Certificates = () => {
                     <Card.Title>MERN eCommerce From Scratch</Card.Title>
                     <ListGroup variant='flush'>
                       <ListGroup.Item>
-                        <strong>Instructor:</strong> Brad Traversy
+                        Instructor:
+                        <strong className='strong'> Brad Traversy</strong>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <strong>Completion Date:</strong> Nov 10, 2020
+                        Completion Date:
+                        <strong className='strong'> Nov 10, 2020</strong>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <strong>Total Hours:</strong> 15
+                        Total Hours: <strong className='strong'>15</strong>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Body>
@@ -66,13 +71,15 @@ const Certificates = () => {
                     </Card.Title>
                     <ListGroup variant='flush'>
                       <ListGroup.Item>
-                        <strong>Instructor:</strong> Brad Traversy
+                        Instructor:
+                        <strong className='strong'> Brad Traversy</strong>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <strong>Completion Date:</strong> Jan 11, 2021
+                        Completion Date:
+                        <strong className='strong'> Jan 11, 2021</strong>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <strong>Total Hours:</strong> 12
+                        Total Hours: <strong className='strong'>12</strong>
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Body>

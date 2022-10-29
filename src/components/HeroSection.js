@@ -47,7 +47,7 @@ const HeroSection = () => {
                       <Image src={Node} />
 
                       <Image src={Next} />
-                      <Image src={Node2} />
+                      {/* <Image src={Node2} /> */}
                     </div>
 
                     <div className='view'>

@@ -224,6 +224,30 @@ a {
 
 /*About End*/
 
+/*Certificate*/
+.card {
+  border: none !important;
+  border-left: 10px solid var(--textcolor) !important;
+}
+
+.card-body {
+  background: var(--secondarytextcolor);
+}
+.card-title {
+  color: #fff !important;
+}
+.list-group-item {
+  background: #333 !important;
+  color: #fff !important;
+}
+
+.certificates_container h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0px 20px 0px;
+}
+/*Certificate End*/
+
 /*Pages*/
 .hero_container {
   min-height: 100vh;
@@ -560,6 +584,17 @@ a {
   }
 
   /*About End*/
+
+  /*Certificate*/
+  .card {
+    margin: 0px 30px;
+  }
+
+  .certificates_container h3 {
+    padding: 10px 0px 20px 0px;
+    font-size: 18px;
+  }
+  /*Certificate End*/
 
   /*Project*/
   .project_container {
