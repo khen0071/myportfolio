@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ProjectsSection from '../components/ProjectsSection';
@@ -11,8 +12,8 @@ const HomeScreen = () => {
         <div className='main_container'>
           <HeroSection />
           <AboutSection />
-          <CertificateSection />
           <ProjectsSection />
+          <CertificateSection />
         </div>
 
         <div className='side_nav_container'>
@@ -29,18 +30,20 @@ const HomeScreen = () => {
           </div>
 
           <div className='nav-item'>
-            <a href='#certificate' class='item'>
-              <i class='fa-solid fa-certificate'></i>
-            </a>
-          </div>
-
-          <div className='nav-item'>
             <a href='#project' class='item'>
               <i class='fa-solid fa-code'></i>
             </a>
           </div>
+
+          <div className='nav-item'>
+            <a href='#certificate' class='item'>
+              <i class='fa-solid fa-certificate'></i>
+            </a>
+          </div>
         </div>
       </main>
+
+      <Footer />
     </>
   );
 };

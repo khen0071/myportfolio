@@ -50,7 +50,7 @@ const AboutSection = () => {
             <Row>
               <Col md={12} xs={12}>
                 <div className='tabs_container'>
-                  <h3>My Journey...</h3>
+                  <h3>My Journey</h3>
                   <Tabs
                     defaultActiveKey='experience'
                     id='justify-tab-example'

@@ -189,6 +189,7 @@ a {
 .about_section_container h3 {
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .tabs_container button {
@@ -225,6 +226,10 @@ a {
 /*About End*/
 
 /*Certificate*/
+.certificates_container {
+  padding-bottom: 40px;
+}
+
 .card {
   border: none !important;
   border-left: 10px solid var(--textcolor) !important;
@@ -245,6 +250,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   padding: 50px 0px 20px 0px;
+  font-weight: bold;
 }
 /*Certificate End*/
 
@@ -335,7 +341,7 @@ a {
 
 /*Project*/
 .project_main_container {
-  padding: 10px 0;
+  padding: 50px 0px 30px 0px;
 }
 
 .project_main_container h2 {
@@ -346,6 +352,8 @@ a {
 
 .project_main_container p {
   text-align: center;
+  color: #fff;
+  font-size: 16px;
 }
 
 .project_container h4 {
@@ -377,6 +385,54 @@ a {
   width: 30px;
   height: auto;
 }
+
+/* .project_image {
+}
+
+.project_image img {
+  width: 100%;
+  height: auto;
+} */
+
+/*2nd section Project*/
+.project_section_container {
+  margin: 40px 0;
+}
+
+.first_project {
+  max-width: 600px;
+  margin: auto;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+.first_project h4 {
+  font-size: 14px;
+}
+.first_project h2 {
+  color: #fff;
+}
+
+.first_project p {
+  background: #333;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.first_project ul {
+  display: flex;
+  padding-left: 0px;
+}
+
+.first_project li {
+  padding-right: 10px;
+  list-style: none;
+}
+
+.first_project i {
+  font-size: 25px;
+}
+
 /*Project End*/
 
 /*Header nav*/
@@ -406,6 +462,30 @@ a {
 .card-text {
   color: var(--secondarytextcolor);
 }
+
+/*Footer*/
+.footer_container {
+  text-align: center;
+}
+
+.footer_container p {
+  color: #fff;
+}
+
+.copyright {
+  padding-top: 30px;
+  color: var(--gray) !important;
+}
+
+.footer_container button {
+  padding: 15px;
+  background-color: var(--secondarytextcolor);
+  border: 1px solid var(--textcolor);
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+}
+/*Footer End*/
 
 /*media query*/
 
@@ -590,6 +670,10 @@ a {
     margin: 0px 30px;
   }
 
+  .certificates_container {
+    padding-bottom: 10px;
+  }
+
   .certificates_container h3 {
     padding: 10px 0px 20px 0px;
     font-size: 18px;
@@ -630,5 +714,53 @@ a {
     font-size: 16px;
   }
 
+  /*2nd section Project*/
+  .project_section_container {
+    margin: 10px 0;
+  }
+
+  .first_project {
+    margin: 10px;
+  }
+  .first_project h4 {
+    font-size: 12px;
+  }
+  .first_project h2 {
+    color: #fff;
+  }
+
+  .first_project p {
+    font-size: 12px;
+  }
+
+  .first_project li {
+    font-size: 10px;
+  }
+
+  .first_project i {
+    font-size: 15px;
+  }
+
   /*Project End*/
+
+  /*Footer*/
+  .footer_container {
+    margin-bottom: 120px;
+  }
+
+  .footer_container p {
+    color: #fff;
+  }
+
+  .copyright {
+    padding-top: 30px;
+    color: var(--gray) !important;
+    font-size: 12px;
+  }
+
+  .footer_container button {
+    margin: 2px;
+  }
+
+  /*Footer End*/
 }
