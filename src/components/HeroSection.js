@@ -5,7 +5,8 @@ import Programmer from '../images/programmer_vector.jpg';
 import Logo from '../images/logo9.png';
 import JS from '../images/svg/javascript.svg';
 import ReactJS from '../images/svg/react.svg';
-import Node from '../images/svg/node.svg';
+import Node from '../images/svg/node4.svg';
+import Node2 from '../images/svg/node3.svg';
 import Next from '../images/svg/nextjs.svg';
 
 const HeroSection = () => {
@@ -39,18 +40,14 @@ const HeroSection = () => {
                       & prosper to their utmost capabilities.
                     </p>
                     <div className='section_img_container'>
-                      <span>
-                        <Image src={JS} />
-                      </span>
-                      <span>
-                        <Image src={ReactJS} />
-                      </span>
-                      <span>
-                        <Image src={Node} />
-                      </span>
-                      <span>
-                        <Image src={Next} />
-                      </span>
+                      <Image src={JS} />
+
+                      <Image src={ReactJS} />
+
+                      <Image src={Node} />
+
+                      <Image src={Next} />
+                      <Image src={Node2} />
                     </div>
 
                     <div className='view'>

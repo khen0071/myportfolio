@@ -246,6 +246,11 @@ a {
   float: right;
 }
 
+.section_img_container img {
+  width: 15%;
+  height: auto;
+}
+
 .about_container img {
   width: 75%;
   height: auto;
