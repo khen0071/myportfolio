@@ -487,6 +487,10 @@ a {
     font-size: 30px;
   }
 
+  .section_img_container img {
+    width: 50%;
+  }
+
   .border_text {
     border-top: 0px solid var(--textcolor);
   }
