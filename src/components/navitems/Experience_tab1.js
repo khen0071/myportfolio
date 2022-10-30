@@ -5,26 +5,27 @@ const Experience_tab1 = () => {
   return (
     <>
       <div className='experience_container'>
-        <h4>Web Developer</h4>
+        <h4>Web Developer & System Manager</h4>
+
         <p>
           <small>June 2019 - October 2022</small>
         </p>
+
+        <h3>
+          {' '}
+          <a
+            href='https://www.scridoncardio.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i class='fa-solid fa-link'></i>
+          </a>
+          Scridon Cardio
+        </h3>
         <ul>
           <li>
-            Developed & maintained code for in-house and client websites primary
-            using HTML, CSS, Javascript.
-          </li>
-          <li>
-            Manually tested sites in various browsers and mobile devices to
-            ensure cross-browser compatibility and responsiveness.
-          </li>
-          <li>
-            Clients include Psychics, Doctors, Facebook Ads Form Lead
-            Submissions and more...
-          </li>
-          <li>
-            Interfaced with clients on a weekly basis, providing technological
-            expertise
+            Developed website with online patient application & appointment
+            scheduling via email form submission or Healow scheduling.
           </li>
         </ul>
       </div>

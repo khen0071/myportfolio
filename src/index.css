@@ -82,6 +82,10 @@ a {
   background: var(--secondarytextcolor);
 }
 
+.nav-item i:hover {
+  background: var(--textcolor);
+}
+
 /*Hero*/
 .text_container a {
   text-decoration: none;
@@ -230,6 +234,21 @@ a {
 
 .experience_container h4 {
   color: var(--textcolor);
+}
+
+.experience_container h3 {
+  text-align: start;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.experience_container a {
+  color: var(--textcolor);
+  padding-right: 5px;
+}
+
+.experience_container a:hover {
+  color: #fff;
 }
 
 /*About End*/

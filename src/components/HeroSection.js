@@ -24,7 +24,7 @@ const HeroSection = () => {
                       <strong>WELCOME</strong>
                     </div>
                     <h4>
-                      My name is <strong>Kenneth</strong>
+                      My name is <strong className='strong'>Kenneth</strong>
                     </h4>
 
                     <div className='web_container'>
