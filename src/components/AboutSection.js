@@ -60,9 +60,9 @@ const AboutSection = () => {
                     <Tab eventKey='experience' title='ChileJam'>
                       <Experience />
                     </Tab>
-                    <Tab eventKey='experience1' title='Scridon Cardio'>
+                    {/* <Tab eventKey='experience1' title='Scridon Cardio'>
                       <Experience01 />
-                    </Tab>
+                    </Tab> */}
                     <Tab eventKey='experience2' title='GEMINI'>
                       <Experience02 />
                     </Tab>

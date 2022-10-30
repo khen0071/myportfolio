@@ -1,5 +1,4 @@
 import React from 'react';
-import { Nav, Tab, Row, Col } from 'react-bootstrap';
 
 const Experience_tab1 = () => {
   return (

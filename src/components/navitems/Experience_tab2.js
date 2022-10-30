@@ -1,32 +1,47 @@
 import React from 'react';
-import { Nav, Tab, Row, Col } from 'react-bootstrap';
 
 const Experience_tab2 = () => {
   return (
     <>
       <div className='experience_container'>
-        <h4>Web Develope</h4>
+        <h4>Database Administrator & IT Support</h4>
+        <p>Gemini Business Processing & Outsourcing Services</p>
         <p>
-          <small>June 2019 - October 2022</small>
+          <small>June 2017 - June 2019</small>
         </p>
-        <ul>
-          <li>
-            Developed & maintained code for in-house and client websites primary
-            using HTML, CSS, Javascript.
-          </li>
-          <li>
-            Manually tested sites in various browsers and mobile devices to
-            ensure cross-browser compatibility and responsiveness.
-          </li>
-          <li>
-            Clients include Psychics, Doctors, Facebook Ads Form Lead
-            Submissions and more...
-          </li>
-          <li>
-            Interfaced with clients on a weekly basis, providing technological
-            expertise
-          </li>
-        </ul>
+        <div className='experience_item'>
+          <ul>
+            <h3>Database Administrator</h3>
+            <li>
+              Organizing database of all leads and insurances registered to US
+              citizens.
+            </li>
+            <li>Responsible for CRUD operations in a specific database.</li>
+            <li>Preparing up-to-date reports for management evaluation.</li>
+            <li>
+              Interfaced with clients on a weekly basis, providing technological
+              expertise.
+            </li>
+          </ul>
+        </div>
+        <div className='experience_item'>
+          <ul>
+            <h3>IT Support</h3>
+            <li>
+              Configure hardware, software and network devices to set up work
+              stations for employees.
+            </li>
+            <li>
+              Patched software and installed up-to-date versions to eliminate
+              security problems and protect data.
+            </li>
+            <li>
+              Worked with software development team on reported errors and bugs
+              on newly released software and assisted in deployment of release
+              fixes.
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
