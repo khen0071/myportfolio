@@ -31,24 +31,17 @@ const ProjectsSection = () => {
                     <div className='repo'>
                       <span>
                         <a
-                          href='https://github.com/'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fa-brands fa-github'></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a
-                          href='https://github.com/'
+                          href='https://prestigesolutions.com.sg/'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <i className='fa-solid fa-link'></i>
                         </a>
                       </span>
+                      <span className='span_text'>
+                        Prestige Solutions Singapore
+                      </span>
                     </div>
-                    <h2>Prestige Solutions Singapore</h2>
 
                     <p>
                       <ul>
@@ -94,24 +87,17 @@ const ProjectsSection = () => {
                     <div className='repo'>
                       <span>
                         <a
-                          href='https://github.com/'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fa-brands fa-github'></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a
-                          href='https://github.com/'
+                          href='https://prestigesolutions.com.sg/'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <i className='fa-solid fa-link'></i>
                         </a>
                       </span>
+                      <span className='span_text'>
+                        Prestige Solutions Singapore
+                      </span>
                     </div>
-                    <h2>Prestige Solutions Singapore</h2>
 
                     <p>
                       <ul>
@@ -159,24 +145,17 @@ const ProjectsSection = () => {
                     <div className='repo'>
                       <span>
                         <a
-                          href='https://github.com/'
-                          target='_blank'
-                          rel='noopener noreferrer'
-                        >
-                          <i className='fa-brands fa-github'></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a
-                          href='https://github.com/'
+                          href='https://prestigesolutions.com.sg/'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
                           <i className='fa-solid fa-link'></i>
                         </a>
                       </span>
+                      <span className='span_text'>
+                        Prestige Solutions Singapore
+                      </span>
                     </div>
-                    <h2>Prestige Solutions Singapore</h2>
 
                     <p>
                       <ul>

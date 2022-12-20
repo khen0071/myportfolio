@@ -459,14 +459,20 @@ a {
   border-left: 1px solid #fff;
   padding-left: 10px;
 }
+
 .first_project h4 {
-  font-size: 14px;
+  font-size: 16px;
   text-align: start;
   text-transform: capitalize;
   font-weight: normal;
 }
-.first_project h2 {
-  color: #fff;
+
+.repo {
+  padding: 10px 0px;
+}
+
+.span_text {
+  font-size: 30px;
 }
 
 .first_project a {
@@ -582,6 +588,14 @@ a {
 
   .strong_hero {
     font-size: 25px;
+  }
+
+  .span_text {
+    font-size: 20px;
+  }
+
+  .repo i {
+    font-size: 20px;
   }
 
   .text_container p {
@@ -839,16 +853,16 @@ a {
     font-size: 12px;
   }
 
-  .first_project li {
-    font-size: 12px;
-  }
-
   .first_project i {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .first_project span {
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  .span_text {
+    font-size: 18px !important;
   }
 
   .first_project p {
@@ -897,5 +911,20 @@ a {
 
   .text_container p {
     font-size: 12px;
+  }
+
+  .first_project h4 {
+    margin: 0px;
+  }
+
+  .repo {
+    padding: 2px !important;
+  }
+
+  .first_project i {
+    font-size: 12px;
+  }
+  .span_text {
+    font-size: 12px !important;
   }
 }
