@@ -1,4 +1,9 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
+
+import Image1 from '../../images/psychic.png';
+import Image2 from '../../images/scridon.png';
+import Image3 from '../../images/afwol.png';
 
 const Experience = () => {
   return (
@@ -83,6 +88,20 @@ const Experience = () => {
             </li>
             <li>Patient Database Management</li>
           </ul>
+        </div>
+
+        <div className='carousel_container'>
+          <Carousel fade variant='dark'>
+            <Carousel.Item>
+              <img className='d-block w-100' src={Image1} alt='first slide' />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className='d-block w-100' src={Image2} alt='second slide' />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className='d-block w-100' src={Image3} alt='third slide' />
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     </>

@@ -276,6 +276,12 @@ a {
   color: #fff;
 }
 
+.carousel_container img {
+  border-radius: 10px;
+  padding: 5px;
+  background: var(--white);
+}
+
 /*About End*/
 
 /*Certificate*/
