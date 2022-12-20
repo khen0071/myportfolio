@@ -887,6 +887,9 @@ a {
   .web_container h2 {
     font-size: 16px;
   }
+  .strong_hero {
+    font-size: 20px;
+  }
 
   .text_container h4 {
     font-size: 14px;
