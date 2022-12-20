@@ -124,6 +124,7 @@ a {
 
 .view span {
   color: #fff;
+  text-transform: uppercase;
 }
 
 .welcome {
@@ -884,7 +885,7 @@ a {
   }
 
   .web_container h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .text_container h4 {
