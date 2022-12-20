@@ -1,11 +1,9 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import svg1 from '../images/svg/react.svg';
-import svg2 from '../images/svg/javascript.svg';
-import svg3 from '../images/svg/contentful.svg';
-import svg4 from '../images/svg/nextjs.svg';
-import svg5 from '../images/svg/node.svg';
-import svg6 from '../images/svg/redux.svg';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+
+import Image1 from '../images/prestige2.png';
+import Image2 from '../images/support_owl.png';
+import Image3 from '../images/pubj.png';
 
 const ProjectsSection = () => {
   return (
@@ -16,224 +14,206 @@ const ProjectsSection = () => {
         data-label='project'
       >
         <h1>
-          <i class='fa-solid fa-code'></i> Project Section
+          <i className='fa-solid fa-code'></i> Projects
         </h1>
-
         <Container>
-          <div className='project_main_container'>
-            <h2>My Accomplished Projects</h2>
-            <p>Things I've Created...</p>
-            <div className='project_item_container'>
-              <Row>
-                <Col md={4} xs={12} className='my-1'>
-                  <div className='project_item_container'>
-                    <div className='project_item'>
-                      <h4>Ecommerce</h4>
-                      <p>
-                        Building a custom multi device compatible E-commerce
-                        application.
-                      </p>
-                      <div className='stack'>
-                        <span>
-                          <img src={svg1} />
-                        </span>
-                        <span>
-                          {' '}
-                          <img src={svg5} />
-                        </span>
-                        <span>
-                          {' '}
-                          <img src={svg6} />
-                        </span>
-                      </div>
+          <div className='project_section_container'>
+            <Row>
+              <Col lg={6} md={12} sm={12} xs={12} className='p-3'>
+                <Card>
+                  <Card.Img variant='top' src={Image1} />
+                </Card>
+              </Col>
+              <Col lg={6} md={12} sm={12} xs={12} className='p-3'>
+                <div>
+                  <div className='first_project'>
+                    <h4>Freelance Project</h4>
+                    <div className='repo'>
+                      <span>
+                        <a
+                          href='https://github.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fa-brands fa-github'></i>
+                        </a>
+                      </span>
+                      <span>
+                        <a
+                          href='https://github.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fa-solid fa-link'></i>
+                        </a>
+                      </span>
+                    </div>
+                    <h2>Prestige Solutions Singapore</h2>
 
-                      <i class='fa-brands fa-github'></i>
+                    <p>
+                      <ul>
+                        <li>
+                          {' '}
+                          Built with Next Js, Bootstrap, Custom CSS & Contentful
+                          CMS.
+                        </li>
+                        <li>
+                          Customized site for various clients/customers to
+                          browse and search for specific product/solution.
+                        </li>
+                        <li>
+                          Developed with MERN Stack web app for production team
+                          usage & database management.
+                        </li>
+                        <li>Redux for State Management</li>
+                        <li>User Login with password Encryption</li>
+                        <li>
+                          Custom user roles with JWT (JSON Web Tokens) eg:
+                          admin, editor, producer, design & content staff
+                        </li>
+                      </ul>
+                    </p>
+                    <div className='icon_list'>
+                      <span>React</span>
+                      <span>Custom CSS</span>
+                      <span>Bootstrap</span>
+                      <span>Contentful CMS</span>
                     </div>
                   </div>
-                </Col>
-                <Col md={4} xs={12} className='my-1'>
-                  <div className='project_item_container'>
-                    <div className='project_item'>
-                      <h4>Ecommerce</h4>
-                      <p>
-                        Building a custom multi device compatible E-commerce
-                        application.
-                      </p>
-                      <div className='stack'>
-                        <span>
-                          <img src={svg1} />
-                        </span>
-                        <span>
-                          {' '}
-                          <img src={svg5} />
-                        </span>
-                        <span>
-                          {' '}
-                          <img src={svg6} />
-                        </span>
-                      </div>
+                </div>
+              </Col>
+              <Col lg={6} md={12} sm={12} xs={12} className='p-3'>
+                <Card>
+                  <Card.Img variant='top' src={Image2} />
+                </Card>
+              </Col>
+              <Col lg={6} md={12} sm={12} xs={12} className='p-3'>
+                <div>
+                  <div className='first_project'>
+                    <h4>Freelance Project</h4>
+                    <div className='repo'>
+                      <span>
+                        <a
+                          href='https://github.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fa-brands fa-github'></i>
+                        </a>
+                      </span>
+                      <span>
+                        <a
+                          href='https://github.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fa-solid fa-link'></i>
+                        </a>
+                      </span>
+                    </div>
+                    <h2>Prestige Solutions Singapore</h2>
 
-                      <i class='fa-brands fa-github'></i>
+                    <p>
+                      <ul>
+                        <li>
+                          {' '}
+                          Built with Next Js, Bootstrap, Custom CSS & Contentful
+                          CMS.
+                        </li>
+                        <li>
+                          Customized site for various clients/customers to
+                          browse and search for specific product/solution.
+                        </li>
+                        <li>
+                          Developed with MERN Stack web app for production team
+                          usage & database management.
+                        </li>
+                        <li>Redux for State Management</li>
+                        <li>User Login with password Encryption</li>
+                        <li>
+                          Custom user roles with JWT (JSON Web Tokens) eg:
+                          admin, editor, producer, design & content staff
+                        </li>
+                      </ul>
+                    </p>
+                    <div className='icon_list'>
+                      <span>React</span>
+                      <span>Redux</span>
+                      <span>Express</span>
+                      <span>MongoDB</span>
+                      <span>PayPal API</span>
+                      <span>Custom CSS</span>
                     </div>
                   </div>
-                </Col>{' '}
-                <Col md={4} xs={12} className='my-1'>
-                  <div className='project_item_container'>
-                    <div className='project_item'>
-                      <h4>Ecommerce</h4>
-                      <p>
-                        Building a custom multi device compatible E-commerce
-                        application.
-                      </p>
-                      <div className='stack'>
-                        <span>
-                          <img src={svg1} />
-                        </span>
-                        <span>
-                          {' '}
-                          <img src={svg5} />
-                        </span>
-                        <span>
-                          {' '}
-                          <img src={svg6} />
-                        </span>
-                      </div>
+                </div>
+              </Col>
+              <Col lg={6} md={12} sm={12} xs={12} className='p-3'>
+                <Card>
+                  <Card.Img variant='top' src={Image3} />
+                </Card>
+              </Col>
+              <Col lg={6} md={12} sm={12} xs={12} className='p-3'>
+                <div>
+                  <div className='first_project'>
+                    <h4>Freelance Project</h4>
+                    <div className='repo'>
+                      <span>
+                        <a
+                          href='https://github.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fa-brands fa-github'></i>
+                        </a>
+                      </span>
+                      <span>
+                        <a
+                          href='https://github.com/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
+                          <i className='fa-solid fa-link'></i>
+                        </a>
+                      </span>
+                    </div>
+                    <h2>Prestige Solutions Singapore</h2>
 
-                      <i class='fa-brands fa-github'></i>
+                    <p>
+                      <ul>
+                        <li>
+                          {' '}
+                          Built with Next Js, Bootstrap, Custom CSS & Contentful
+                          CMS.
+                        </li>
+                        <li>
+                          Customized site for various clients/customers to
+                          browse and search for specific product/solution.
+                        </li>
+                        <li>
+                          Developed with MERN Stack web app for production team
+                          usage & database management.
+                        </li>
+                        <li>Redux for State Management</li>
+                        <li>User Login with password Encryption</li>
+                        <li>
+                          Custom user roles with JWT (JSON Web Tokens) eg:
+                          admin, editor, producer, design & content staff
+                        </li>
+                      </ul>
+                    </p>
+                    <div className='icon_list'>
+                      <span>React</span>
+                      <span>Custom CSS</span>
+                      <span>Bootstrap</span>
+                      <span>Contentful CMS</span>
                     </div>
                   </div>
-                </Col>
-              </Row>
-            </div>
+                </div>
+              </Col>
+            </Row>
           </div>
         </Container>
       </div>
-
-      <Container>
-        <Row>
-          <Col md={4} xs={12}>
-            <div className='first_project'>
-              <h4>Large Scale Project</h4>
-              <h2>E-commerce Project</h2>
-              <p>
-                A minimal, light blue e-commerce website with PayPal API
-                integration for payment process. Build with React Js &
-                NodeJs(Express). MongoDB for database and simple bootstrap for
-                CSS framework.{' '}
-              </p>
-              <ul>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>PayPal API</li>
-                <li>Custom CSS</li>
-              </ul>
-              <ul>
-                <li>
-                  <a
-                    href='https://github.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i class='fa-brands fa-github'></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://github.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i class='fa-solid fa-link'></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </Col>
-          <Col md={4} xs={12}>
-            <div className='first_project'>
-              <h4>Large Scale Project</h4>
-              <h2>E-commerce Project</h2>
-              <p>
-                A minimal, light blue e-commerce website with PayPal API
-                integration for payment process. Build with React Js &
-                NodeJs(Express). MongoDB for database and simple bootstrap for
-                CSS framework.{' '}
-              </p>
-              <ul>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>PayPal API</li>
-                <li>Custom CSS</li>
-              </ul>
-              <ul>
-                <li>
-                  <a
-                    href='https://github.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i class='fa-brands fa-github'></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://github.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i class='fa-solid fa-link'></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </Col>
-          <Col md={4} xs={12}>
-            <div className='first_project'>
-              <h4>Large Scale Project</h4>
-              <h2>E-commerce Project</h2>
-              <p>
-                A minimal, light blue e-commerce website with PayPal API
-                integration for payment process. Build with React Js &
-                NodeJs(Express). MongoDB for database and simple bootstrap for
-                CSS framework.{' '}
-              </p>
-              <ul>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>PayPal API</li>
-                <li>Custom CSS</li>
-              </ul>
-              <ul>
-                <li>
-                  <a
-                    href='https://github.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i class='fa-brands fa-github'></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://github.com/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <i class='fa-solid fa-link'></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </Col>
-        </Row>
-        <div className='project_section_container'></div>
-      </Container>
     </>
   );
 };

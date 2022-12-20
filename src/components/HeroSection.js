@@ -12,7 +12,7 @@ const HeroSection = () => {
     <>
       <div className='hero_container section' id='hero' data-label='hero'>
         <div className='logo_container'>
-          <Image src={Logo} />
+          <Image src={Logo} alt='logo' />
         </div>
         <Container>
           <div className='hero_section_container'>
@@ -24,12 +24,15 @@ const HeroSection = () => {
                       <strong>WELCOME</strong>
                     </div>
                     <h4>
-                      My name is <strong className='strong'>Kenneth</strong>
+                      My name is <strong className='strong'>Kenneth</strong>,
                     </h4>
 
                     <div className='web_container'>
-                      <h2>Software Developer</h2>
-                      <h3>at your service</h3>
+                      <h2>
+                        <strong className='strong_hero'>
+                          Front End Developer
+                        </strong>{' '}
+                      </h2>
                     </div>
 
                     <p>
@@ -38,22 +41,22 @@ const HeroSection = () => {
                       & prosper to their utmost capabilities.
                     </p>
                     <div className='section_img_container'>
-                      <Image src={JS} />
+                      <Image src={JS} alt='icon' />
 
-                      <Image src={ReactJS} />
+                      <Image src={ReactJS} alt='icon' />
 
-                      <Image src={Node} />
+                      <Image src={Node} alt='icon' />
 
-                      <Image src={Next} />
+                      <Image src={Next} alt='icon' />
                       {/* <Image src={Node2} /> */}
                     </div>
 
                     <div className='view'>
-                      <a href='#about' class='item'>
-                        <i class='fa-regular fa-address-card'></i>
+                      <a href='#about' className='item'>
+                        <i className='fa-regular fa-address-card'></i>
                         <span>About me</span>
-                        <a href='#project' class='item'>
-                          <i class='fa-solid fa-list-check'></i>
+                        <a href='#project' className='item'>
+                          <i className='fa-solid fa-list-check'></i>
                           <span>View Projects</span>
                         </a>
                       </a>

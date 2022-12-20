@@ -150,16 +150,20 @@ a {
   text-transform: uppercase;
 }
 
-.web_container {
-  display: flex;
-  align-items: center;
+.web_container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--white);
 }
 
-.web_container h2 {
+.strong_hero {
   font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.3px;
+  color: var(--textcolor);
 }
 
 .web_container h3 {
@@ -226,6 +230,11 @@ a {
   margin-bottom: 0px;
 }
 
+.profile_container li {
+  font-size: 16px;
+  color: var(--textcolor);
+}
+
 .experience_container {
   color: #fff;
   max-width: 800px;
@@ -239,6 +248,7 @@ a {
   padding: 10px;
   background: var(--secondarytextcolor);
   padding-bottom: 0;
+  letter-spacing: 0.5px;
 }
 
 .experience_container h4 {
@@ -249,6 +259,11 @@ a {
   text-align: start;
   text-transform: capitalize;
   font-size: 18px;
+}
+
+.freelance_ul li {
+  list-style: none;
+  font-weight: bold;
 }
 
 .experience_container a {
@@ -268,8 +283,11 @@ a {
 }
 
 .card {
-  border: none !important;
-  border-left: 10px solid var(--textcolor) !important;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.card img {
 }
 
 .card-body {
@@ -294,7 +312,7 @@ a {
 /*Pages*/
 .hero_container {
   min-height: 100vh;
-  background: url(./images/bg-desktop3.png);
+  background: url(./images/bg-desktop4.png);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -442,6 +460,9 @@ a {
 }
 .first_project h4 {
   font-size: 14px;
+  text-align: start;
+  text-transform: capitalize;
+  font-weight: normal;
 }
 .first_project h2 {
   color: #fff;
@@ -462,14 +483,16 @@ a {
   border-radius: 10px;
 }
 
+.first_project span {
+  padding: 10px 5px;
+}
+
 .first_project ul {
-  display: flex;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
 .first_project li {
   padding-right: 10px;
-  list-style: none;
 }
 
 .first_project i {
@@ -536,10 +559,10 @@ a {
 
 /*media query*/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .hero_container {
     min-height: 100vh;
-    background: url(./images/bg-pad.png);
+    background: url(./images/bg-mobile3.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -547,11 +570,27 @@ a {
     background-size: cover;
     background-position: center;
   }
+
+  .welcome {
+    font-size: 40px;
+  }
+
+  .hero_text_section h4 {
+    font-size: 18px;
+  }
+
+  .strong_hero {
+    font-size: 25px;
+  }
+
+  .text_container p {
+    font-size: 16px;
+  }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 550px) {
   .section {
-    height: 100%;
+    height: 70%;
   }
   .logo_container {
     padding-top: 10px;
@@ -563,10 +602,8 @@ a {
     width: 95%;
     display: flex;
     justify-content: space-evenly;
-
     position: fixed;
     padding-left: 30px;
-
     top: 92%;
     transform: translateY(-50%);
     background: var(--backgroundcolor);
@@ -591,7 +628,7 @@ a {
 
   /*Pages*/
   .hero_container {
-    min-height: 85vh;
+    min-height: 50vh;
     background: url(./images/bg-mobile2.png);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -640,7 +677,6 @@ a {
   /*Hero*/
 
   .hero_section_container {
-    width: 350px;
   }
 
   .welcome {
@@ -648,7 +684,7 @@ a {
   }
 
   .section_img_container img {
-    width: 15%;
+    width: 10%;
   }
 
   .border_text {
@@ -706,8 +742,29 @@ a {
     font-size: 14px;
   }
 
+  .profile_container li {
+    font-size: 14px;
+  }
+
   .experience_container {
     font-size: 14px;
+  }
+
+  .experience_container h4 {
+    font-size: 16px;
+  }
+
+  .experience_item h3 {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .experience_item li {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+  .experience_item p {
+    font-size: 13px;
   }
 
   /*About End*/
@@ -770,10 +827,11 @@ a {
     margin: 10px;
   }
   .first_project h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .first_project h2 {
     color: #fff;
+    font-size: 16px;
   }
 
   .first_project p {
@@ -781,11 +839,19 @@ a {
   }
 
   .first_project li {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .first_project i {
-    font-size: 15px;
+    font-size: 20px;
+  }
+
+  .first_project span {
+    font-size: 10px;
+  }
+
+  .first_project p {
+    margin-bottom: 1px;
   }
 
   /*Project End*/

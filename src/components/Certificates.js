@@ -14,14 +14,14 @@ const Certificates = () => {
       >
         <div className='certificates_container'>
           <h1>
-            <i class='fa-solid fa-code'></i> Certificates
+            <i className='fa-solid fa-code'></i> Certificates
           </h1>
           <Container>
             <h3>My Learnings</h3>
             <Row>
-              <Col md={4} sm={12}>
+              <Col lg={4} md={12} sm={12} xs={12} className='my-1'>
                 <Card className='mb-3'>
-                  <Card.Img variant='top' src={Image1} />
+                  <Card.Img variant='top' src={Image1} alt='certificate' />
                   <Card.Body>
                     <Card.Title>Complete Node.js Developer Course</Card.Title>
 
@@ -41,9 +41,9 @@ const Certificates = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col md={4} sm={12} className='mb-3'>
+              <Col lg={4} md={12} sm={12} xs={12} className='my-1'>
                 <Card>
-                  <Card.Img variant='top' src={Image2} />
+                  <Card.Img variant='top' src={Image2} alt='certificate' />
                   <Card.Body>
                     <Card.Title>MERN eCommerce From Scratch</Card.Title>
                     <ListGroup variant='flush'>
@@ -62,9 +62,9 @@ const Certificates = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col md={4} sm={12} className='mb-3'>
+              <Col lg={4} md={12} sm={12} xs={12} className='my-1'>
                 <Card>
-                  <Card.Img variant='top' src={Image3} />
+                  <Card.Img variant='top' src={Image3} alt='certificate' />
                   <Card.Body>
                     <Card.Title>
                       MERN: Full Stack React, Redux & NodeJs

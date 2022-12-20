@@ -9,7 +9,7 @@ const AboutSection = () => {
     <>
       <div className='about_container section' id='about' data-label='about'>
         <h1>
-          <i class='fa-solid fa-code'></i> About
+          <i className='fa-solid fa-code'></i> About
         </h1>
 
         <Container>
@@ -17,52 +17,55 @@ const AboutSection = () => {
             <h3>My Profile</h3>
             <div className='profile_container'>
               <p>
-                Hello! my name is <strong className='strong'>Kenneth</strong>,
-                and I'm a Philippine based freelancer. I'm working remotely on
-                projects for clients all over the world.
-              </p>
-              <br></br>
-              <p>
-                I have a diverse set of skills, ranging from design, to{' '}
-                <strong className='strong'>HTML CSS Javascript</strong>, all the
-                way to{' '}
+                Hello! my name is <strong className='strong'>Kenneth</strong>, I
+                am a self-taught{' '}
+                <strong className='strong'>Front End Developer</strong> from the
+                Philippines and I possess a diverse set of skills ranging from
+                design <strong className='strong'>(HTML CSS)</strong> all the
+                way to full scale development{' '}
                 <strong className='strong'>
-                  React, Node and NoSQL module{' '}
+                  (Javascript, React JS, Next JS, Node Js, Express Js and NoSQL)
                 </strong>
-                development.
+                .
+              </p>
+              <br></br>
+              <p>
+                I enjoy building & providing{' '}
+                <strong className='strong'>solutions</strong> for small business
+                site to rich interactive web app or grow existing projects. If
+                you are a business and seeking for a{' '}
+                <strong className='strong'>web presence</strong> or an employer
+                <strong className='strong'> looking to hire</strong>, I'd be
+                more than happy to join your amazing team.
               </p>
               <br></br>
 
-              <p>Self-taught Front End Developer</p>
-              <p>
-                I can provide solutions for problems or grow existing projects
-              </p>
-              <br></br>
-
-              <p>
-                I am a <strong className='strong'>Software Developer</strong>{' '}
-                from the Philippines. I enjoy building everything from small
-                business site to rich interactive web apps. If you are a
-                business and seeking for a web presence of an employer looking
-                to hire, I'd be more than happy to join your amazing team.{' '}
-              </p>
+              <p>Few technologies I've been working recently:</p>
+              <ul>
+                <li>React JS</li>
+                <li>Next JS</li>
+                <li>Node Js</li>
+                <li>Express JS</li>
+                <li>NoSQL (MongoDB)</li>
+              </ul>
             </div>
             <Row>
               <Col md={12} xs={12}>
                 <div className='tabs_container'>
                   <h3>My Journey</h3>
                   <Tabs
-                    defaultActiveKey='experience'
+                    defaultActiveKey='experience01'
                     id='justify-tab-example'
                     className='mb-3'
                     justify
                   >
+                    <Tab eventKey='experience01' title='Freelance'>
+                      <Experience01 />
+                    </Tab>
                     <Tab eventKey='experience' title='ChileJam'>
                       <Experience />
                     </Tab>
-                    {/* <Tab eventKey='experience1' title='Scridon Cardio'>
-                      <Experience01 />
-                    </Tab> */}
+
                     <Tab eventKey='experience2' title='GEMINI'>
                       <Experience02 />
                     </Tab>

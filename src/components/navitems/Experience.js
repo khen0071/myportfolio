@@ -18,7 +18,7 @@ const Experience = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <i class='fa-solid fa-link'></i>
+              <i className='fa-solid fa-link'></i>
             </a>
             Psychics Choice
           </h3>
@@ -54,24 +54,11 @@ const Experience = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <i class='fa-solid fa-link'></i>
+              <i className='fa-solid fa-link'></i>
             </a>
             A Funny Way of Looking
           </h3>
-          <ul>
-            <p>
-              {' '}
-              Developed MERN Stack web app for production team usage & database
-              management:
-            </p>
 
-            <li>Redux for State Management</li>
-            <li>User Login with password Encryption.</li>
-            <li>
-              Custom user roles with JWT (JSON Web Tokens) eg: admin, editor,
-              producer, design & content staff
-            </li>
-          </ul>
           <ul>
             <li>Created static website for guest show detail & schedules.</li>
           </ul>
@@ -85,7 +72,7 @@ const Experience = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <i class='fa-solid fa-link'></i>
+              <i className='fa-solid fa-link'></i>
             </a>
             Dr. Scridon Cardiologist
           </h3>

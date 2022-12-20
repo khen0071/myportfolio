@@ -18,26 +18,26 @@ const HomeScreen = () => {
 
         <div className='side_nav_container'>
           <div className='nav-item'>
-            <a href='#hero' class='item'>
-              <i class='fa-solid fa-house'></i>
+            <a href='#hero' className='item'>
+              <i className='fa-solid fa-house'></i>
             </a>
           </div>
 
           <div className='nav-item'>
-            <a href='#about' class='item'>
-              <i class='fa-regular fa-address-card'></i>
+            <a href='#about' className='item'>
+              <i className='fa-regular fa-address-card'></i>
             </a>
           </div>
 
           <div className='nav-item'>
-            <a href='#project' class='item'>
-              <i class='fa-solid fa-code'></i>
+            <a href='#project' className='item'>
+              <i className='fa-solid fa-code'></i>
             </a>
           </div>
 
           <div className='nav-item'>
-            <a href='#certificate' class='item'>
-              <i class='fa-solid fa-certificate'></i>
+            <a href='#certificate' className='item'>
+              <i className='fa-solid fa-certificate'></i>
             </a>
           </div>
         </div>
